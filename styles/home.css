@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    padding: 10px 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: inline-block;
+    width: 70px;
+    align-self: center;
+    text-align: center;
+    transition: ease-in-out .3s;
+}
+
+.links:hover{
+    background-color: gray;
+    color: yellow;
+}
+
+.logo{
+    transition: ease-in-out .3s;
+}
+.logo:hover{
+    color: yellow;
+}

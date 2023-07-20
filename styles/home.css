@@ -26,7 +26,12 @@
     transition: ease-in-out .3s;
 }
 
-.links:hover{
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links a:hover{
     background-color: gray;
     color: yellow;
 }
@@ -34,6 +39,7 @@
 .logo{
     transition: ease-in-out .3s;
 }
+
 .logo:hover{
     color: yellow;
 }

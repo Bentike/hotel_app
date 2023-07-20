@@ -35,7 +35,7 @@
     transition: all ease-in-out .3s;
 }
 
-.links a:hover, .links a.current{
+.links a:hover, .links a.active{
     background-color: gray;
     color: yellow;
 }

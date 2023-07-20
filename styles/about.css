@@ -1,0 +1,55 @@
+.about-wrap{
+    display: flex;
+    padding: 20px 10px;
+}
+
+.about-text-wrap{
+    align-self: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-text-wrap h2{
+    font-size: 40px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+.hotel-name{
+    color: rgb(240, 105, 128);
+}
+
+.testimonial-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.guests{
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/behold-the-night-evelina-kremsdorf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.guests h2{
+    color: yellow;
+    font-size: 40px;
+}
+
+.guest-card{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 80%;
+    margin: 30px auto;
+    background-color:  rgb(240, 105, 128);
+    padding: 10px;
+}
+
+.guest-card p{
+    align-self: center;
+    margin-left: 10px;
+}

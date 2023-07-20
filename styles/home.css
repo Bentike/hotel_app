@@ -168,3 +168,8 @@
     background-color: #000;
     color: #fff;
 }
+
+.fa-lg{
+    font-size: 50px;
+    margin-bottom: 20px;
+}

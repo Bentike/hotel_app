@@ -23,7 +23,7 @@
     width: 70px;
     align-self: center;
     text-align: center;
-    transition: ease-in-out .3s;
+    transition: all ease-in-out .3s;
 }
 
 .links a {
@@ -37,9 +37,69 @@
 }
 
 .logo{
-    transition: ease-in-out .3s;
+    transition: all ease-in-out .3s;
 }
 
 .logo:hover{
     color: yellow;
+}
+
+.home-main{
+    text-align: center;
+    padding: 100px 50px;
+    background-image: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/sunset-at-hotel-del-coronado-james-udall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    position: relative;
+    z-index: 10;
+}
+
+.bg-overlay{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .6;
+    z-index: -5;
+}
+
+.have{
+    color: yellow;
+}
+
+.stay{
+    color: #fff;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.slogan{
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.about-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    transition: all ease-in-out .3s;
+}
+
+.about-btn:hover{
+    background-color: yellow;
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
 }
